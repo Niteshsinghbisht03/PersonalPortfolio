@@ -3,56 +3,64 @@ import Section from "../components/Section";
 import Filters from "./Filter";
 import ShowCase from "./ShowCase";
 
+import Pic1 from "../images/portfolio/thumb-1.jpg";
+import Pic2 from "../images/portfolio/thumb-2.jpg";
+import Pic3 from "../images/portfolio/thumb-3.jpg";
+import Pic4 from "../images/portfolio/thumb-4.jpg";
+import Pic5 from "../images/portfolio/thumb-5.jpg";
+import Pic6 from "../images/portfolio/thumb-6.jpg";
+import Pic7 from "../images/portfolio/thumb-7.jpg";
+import Pic8 from "../images/portfolio/thumb-8.jpg";
 const ProjectData = [
   {
     id: 1,
     name: "Moviex",
     tags: ["Mobile-app", "Web-app"],
     media: {
-      thumbnail: "src/images/portfolio/thumb-1.jpg",
+      thumbnail: Pic1,
     },
   },
   {
     id: 2,
     name: "E-Commerce",
     tags: ["Mobile-app", "Web-app"],
-    media: { thumbnail: "src/images/portfolio/thumb-2.jpg" },
+    media: { thumbnail: Pic7 },
   },
   {
     id: 3,
     name: "To-do App",
     tags: ["Mobile-app", "Web-app"],
-    media: { thumbnail: "src/images/portfolio/thumb-3.jpg" },
+    media: { thumbnail: Pic2 },
   },
   {
     id: 4,
     name: "Calculator",
     tags: ["Mobile-app", "Web-app"],
-    media: { thumbnail: "src/images/portfolio/thumb-4.jpg" },
+    media: { thumbnail: Pic3 },
   },
   {
     id: 5,
     name: "Table Creater",
     tags: ["Mobile-app", "Web-app"],
-    media: { thumbnail: "src/images/portfolio/thumb-5.jpg" },
+    media: { thumbnail: Pic4 },
   },
   {
     id: 6,
     name: "Website Clone",
     tags: ["Web-page"],
-    media: { thumbnail: "src/images/portfolio/thumb-6.jpg" },
+    media: { thumbnail: Pic5 },
   },
   {
     id: 7,
     name: "Tribute Page",
     tags: ["Web-page"],
-    media: { thumbnail: "src/images/portfolio/thumb-7.jpg" },
+    media: { thumbnail: Pic6 },
   },
   {
     id: 8,
     name: "Flex Box",
     tags: ["Web-page"],
-    media: { thumbnail: "src/images/portfolio/thumb-8.jpg" },
+    media: { thumbnail: Pic8 },
   },
 ];
 const Project = () => {
