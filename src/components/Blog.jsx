@@ -99,7 +99,7 @@ const Blog = () => {
                       B-Tech(L-Entry)
                     </h4>
                     <p class="mb-3 text-sm text-yellow-300 ">
-                      Gopeshwar,Uttarakhand.
+                      Gurdauri,Pauri Garhwal,Uttarakhand.
                     </p>
 
                     <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
