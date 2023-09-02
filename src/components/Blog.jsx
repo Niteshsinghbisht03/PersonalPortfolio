@@ -103,8 +103,9 @@ const Blog = () => {
                     </p>
 
                     <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      Pursuing Graduation in Computer Science and Engineering
-                      From Institute of Technology ,Gopeshwar
+                      Pursuing Graduation in Computer Science and Engineering(AI
+                      & Ml) From Govind Ballabh Pant Institute of Engineering
+                      and technology , Gurdauri,Pauri Garhwal.
                     </p>
                   </div>
                 </div>

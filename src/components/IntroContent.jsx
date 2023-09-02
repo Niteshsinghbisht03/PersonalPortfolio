@@ -8,7 +8,7 @@ import { ScrollToSection } from "./ScrollToSection";
 const IntroContent = () => {
   return (
     <div className="flex items-center justify-between  grow md:pt-0 md:items-center ">
-      <div className="flex flex-col md:flex-row md:p-5 md:justify-center">
+      <div className="flex flex-col md:flex-row md:p-5 md:items-center md:justify-center">
         <div className="w-[100%] md:w-[55%]  lg:pt-[55px] xl:pt-0 xl:w-[45%] text-center">
           <h1 className="flex flex-col text-white items-center md:items-start">
             <span className="text-[24px] font-normal leading-[30px] justify-center flex md:justify-start  items-center md:text-[42px] md:font-normal md:leading-[48px] ">

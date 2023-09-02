@@ -22,6 +22,7 @@ const NavigationBar = () => {
           <CgMenuRight className={"text-2xl text-[#fff]"} />
         )}
       </div>
+      
       <div
         className={`fixed w-full h-full top-0 left-0 z-[9] bg-black  flex-col justify-center items-center gap-[35px] md:flex md:flex-row md:relative md:w-auto md:h-auto md:gap-[unset] md:bg-transparent ${
           mobileMenu ? "flex" : "hidden"
