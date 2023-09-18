@@ -17,15 +17,20 @@ const ShowCase = ({ data, transition }) => {
            h-[130px] md:rounded-2xl rounded-md m-2 md:m-3 relative cursor-pointer transition-all hover:z-[1] hover:scale-[1.2] hover:shadow-[0_0px_0px_-0.75px_rgba(0,0,0,0.75)]"
         >
           <div className="metacontent flex w-fit flex-col items-start md:opacity-0 opacity-100 absolute  md:px-[75px] md:py-[100px] bottom-0 left-0 p-2 rounded-xl transition-all backdrop-blur-sm  md:hover:visible hover:opacity-100 ">
-            <h3 className="text-black text-xl font-normal md:mb-[10px] w-32 ">
+            <h3 className="text-black text-xl font-medium md:mb-[10px] w-36 ">
               {project.name}
             </h3>
-            <div className="gotocta flex items-center ">
-              <span className="text text-xs font-normal leading-5">
+            <div className="gotocta flex items-center flex-row">
+              <span className="text text-xs font-normal  leading-5">
                 Project Detail
               </span>
               <div className="arrowicon">
-                <Arrow bg="bg-yellow-500" className="w-15px h-15px ml-[5px]" />
+                <a href={project.link} target="_blank">
+                  <Arrow
+                    bg="bg-yellow-500"
+                    className="w-15px h-15px ml-[8px]"
+                  />
+                </a>
               </div>
             </div>
           </div>

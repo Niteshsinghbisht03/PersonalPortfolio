@@ -1,19 +1,21 @@
 import React from "react";
+import { useEffect } from "react";
 import Section from "./Section";
 import techIcons from "../images/tech-icons.png";
 import CallToAction from "./CallToAction";
 import { AiOutlineCloudDownload } from "react-icons/ai";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
 import MyResume from "../images/myresume.pdf";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Skill = () => {
-  const percentage = 80;
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <Section background="dark" id="skills">
       <div className="flex items-center md:flex-row flex-col ">
-        <div className="w-[75%] md:w-[40%] flex ">
+        <div className="w-[75%] md:w-[40%] flex " data-aos="zoom-in">
           <img
             src={techIcons}
             alt="skills image"
@@ -24,7 +26,10 @@ const Skill = () => {
           <h2 className="mb-[10px] md:mb-[30px] md:text-6xl text-4xl font-semibold">
             Skills
           </h2>
-          <p className="text-base font-normal leading-5 md:text-lg md:leading-6 mb-[15px]">
+          <p
+            data-aos="zoom-in"
+            className="text-base font-normal leading-5 md:text-lg md:leading-6 mb-[15px]"
+          >
             Knowledgeable in utilizing front-end frameworks such as React ,Redux
             to build interactive and dynamic user interfaces efficiently .
             Experienced in developing interactive and dynamic web interfaces

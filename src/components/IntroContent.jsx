@@ -1,10 +1,12 @@
 import React from "react";
+import { useEffect } from "react";
 import { BsAwardFill } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
 import hand from "../images/hand.png";
 import CallToAction from "./CallToAction";
 import intropic from "../images/intopic.png";
 import { ScrollToSection } from "./ScrollToSection";
+
 const IntroContent = () => {
   return (
     <div className="flex items-center justify-between  grow md:pt-0 md:items-center ">
